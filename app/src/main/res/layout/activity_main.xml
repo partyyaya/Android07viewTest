@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Clear"
+            android:onClick="clear"
             />
         <Button
             android:layout_width="match_parent"
@@ -28,10 +29,17 @@
             android:layout_height="wrap_content"
             android:text="Redo"
             />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Color"
+            android:onClick="color"
+            />
 
     </LinearLayout>
 
     <tw.ming.app.helloworid.myviewtest.MyView
+        android:id="@+id/myview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#ff0"
